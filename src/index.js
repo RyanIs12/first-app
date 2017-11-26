@@ -14,7 +14,7 @@ ReactDOM.render(
   <hr/>
   class RedSqaure extends Component {
     render()
-    return  ( <RedSqaure/> )
+    return  ( <RedSquare/> )
   }
   <hr/>
   <Game />
