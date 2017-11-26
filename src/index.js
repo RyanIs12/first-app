@@ -2,8 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import './App.css';
+import App from './App';
 import Game from './components/Game';
 import registerServiceWorker from './registerServiceWorker';
+import './RedSqaure';
 
-ReactDOM.render(<Game />, document.getElementById('root'));
+
+ReactDOM.render(
+  <div>
+  <App/>
+  <hr/>
+  class RedSqaure extends Component {
+    render()
+    return  ( <RedSqaure/> )
+  }
+  <hr/>
+  <Game />
+  </div>, document.getElementById('root'));
 registerServiceWorker();
